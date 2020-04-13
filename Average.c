@@ -11,11 +11,11 @@
         ​printf​(​"​Enter the number again: ​"​);
         ​scanf​(​"​%d​"​,&n);
     }
-    ​for​ (i=​0​;i<n;++i)
+    ​for​ (i=​0​;i<n;i++)
     {
-        ​printf​(​"​%d​. Enter number: ​"​, i + ​1​);
+        ​printf​(​"Enter number:");
         ​scanf​(​"​%f​"​, &num[i]);
-        sum+=num[i];
+        sum=sum+num[i];
     }
     avg=sum/n;
     ​printf​(​"​Average = ​%f​"​,avg);
